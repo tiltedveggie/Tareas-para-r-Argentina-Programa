@@ -1,0 +1,27 @@
+{
+	"name": "r-argentina-programa",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prepare": "husky install",
+		"lint": "lint-staged"
+	},
+	"lint-staged": {
+		"**/*.{js}": [
+			"eslint --fix"
+		],
+		"**/*.{html, js}": [
+			"prettier --write"
+		]
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "^8.38.0",
+		"husky": "^8.0.3",
+		"lint-staged": "^13.2.1",
+		"prettier": "^2.8.8"
+	}
+}
