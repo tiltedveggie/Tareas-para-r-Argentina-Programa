@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="#" />
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- //TAREA: En otro archivo html (no Index) y otro archivo js (no tarea-clase-5.js),
+			// creá un formulario que capture el primer nombre, segundo nombre, apellido/s y edad del usuario
+			// también vamos a crear un <h1> que diga Bienvenido!
+			// vas a crear un botón de acción que una vez que lo apretás, va a
+			// mostrar toda la información junta en un campo de texto
+			// Y va a cambiar el <h1> para decir "Bienvenido, nombreDeUsuario"! -->
+
+		<div id="root">
+			<h1 id="welcomeH1">Bienvenido!</h1>
+
+			<form>
+				<input type="text" id="name" />
+				<input type="text" id="second-name" />
+				<input type="text" id="lastname" />
+				<input type="number" id="age" />
+
+				<button id="action-btn">Show info</button>
+			</form>
+
+			<p id="info-cont"></p>
+		</div>
+
+		<script src="./index.js" />
+	</body>
+</html>
